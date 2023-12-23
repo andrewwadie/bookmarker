@@ -1,0 +1,36 @@
+.moving{
+    height: 20px;
+    width: 225px;
+    background-color: #FEC260;
+    position: absolute;
+    top: 30;
+    z-index:-1 ;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.parent:hover .moving{
+height: 28px;
+top: 20;
+transition-duration: 1s;
+}
+body{
+    background-color:  #F7ECDE;
+ ;
+}
+h1{
+    font-family: 'Amatic SC', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.title h2{
+    font-size: x-large;
+
+background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+background-clip: text ;
+-webkit-text-fill-color: transparent;
+}
+.button{
+    width: 14%;
+    margin: auto;
+}
+
